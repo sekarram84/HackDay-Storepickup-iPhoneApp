@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7668BC4116340D7C0042E1CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668BC4016340D7C0042E1CB /* UIKit.framework */; };
+		7668BC4316340D7C0042E1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668BC4216340D7C0042E1CB /* Foundation.framework */; };
+		7668BC4516340D7C0042E1CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668BC4416340D7C0042E1CB /* CoreGraphics.framework */; };
+		7668BC4B16340D7C0042E1CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC4916340D7C0042E1CB /* InfoPlist.strings */; };
+		7668BC4D16340D7C0042E1CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668BC4C16340D7C0042E1CB /* main.m */; };
+		7668BC5116340D7C0042E1CB /* wmt_hackday1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668BC5016340D7C0042E1CB /* wmt_hackday1AppDelegate.m */; };
+		7668BC5316340D7C0042E1CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC5216340D7C0042E1CB /* Default.png */; };
+		7668BC5516340D7C0042E1CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC5416340D7C0042E1CB /* Default@2x.png */; };
+		7668BC5716340D7C0042E1CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC5616340D7C0042E1CB /* Default-568h@2x.png */; };
+		7668BC5A16340D7C0042E1CB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC5816340D7C0042E1CB /* MainStoryboard_iPhone.storyboard */; };
+		7668BC5D16340D7C0042E1CB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC5B16340D7C0042E1CB /* MainStoryboard_iPad.storyboard */; };
+		7668BC6016340D7C0042E1CB /* wmt_hackday1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668BC5F16340D7C0042E1CB /* wmt_hackday1ViewController.m */; };
+		7668BC6816340D7D0042E1CB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668BC6716340D7D0042E1CB /* SenTestingKit.framework */; };
+		7668BC6916340D7D0042E1CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668BC4016340D7C0042E1CB /* UIKit.framework */; };
+		7668BC6A16340D7D0042E1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668BC4216340D7C0042E1CB /* Foundation.framework */; };
+		7668BC7216340D7D0042E1CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7668BC7016340D7D0042E1CB /* InfoPlist.strings */; };
+		7668BC7516340D7D0042E1CB /* hackday1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7668BC7416340D7D0042E1CB /* hackday1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7668BC6B16340D7D0042E1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7668BC3316340D7C0042E1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7668BC3B16340D7C0042E1CB;
+			remoteInfo = hackday1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7668BC3C16340D7C0042E1CB /* hackday1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackday1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7668BC4016340D7C0042E1CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7668BC4216340D7C0042E1CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7668BC4416340D7C0042E1CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7668BC4816340D7C0042E1CB /* hackday1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hackday1-Info.plist"; sourceTree = "<group>"; };
+		7668BC4A16340D7C0042E1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7668BC4C16340D7C0042E1CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7668BC4E16340D7C0042E1CB /* hackday1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hackday1-Prefix.pch"; sourceTree = "<group>"; };
+		7668BC4F16340D7C0042E1CB /* wmt_hackday1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wmt_hackday1AppDelegate.h; sourceTree = "<group>"; };
+		7668BC5016340D7C0042E1CB /* wmt_hackday1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmt_hackday1AppDelegate.m; sourceTree = "<group>"; };
+		7668BC5216340D7C0042E1CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7668BC5416340D7C0042E1CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7668BC5616340D7C0042E1CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7668BC5916340D7C0042E1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7668BC5C16340D7C0042E1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7668BC5E16340D7C0042E1CB /* wmt_hackday1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wmt_hackday1ViewController.h; sourceTree = "<group>"; };
+		7668BC5F16340D7C0042E1CB /* wmt_hackday1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmt_hackday1ViewController.m; sourceTree = "<group>"; };
+		7668BC6616340D7D0042E1CB /* hackday1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackday1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7668BC6716340D7D0042E1CB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7668BC6F16340D7D0042E1CB /* hackday1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hackday1Tests-Info.plist"; sourceTree = "<group>"; };
+		7668BC7116340D7D0042E1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7668BC7316340D7D0042E1CB /* hackday1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hackday1Tests.h; sourceTree = "<group>"; };
+		7668BC7416340D7D0042E1CB /* hackday1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackday1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7668BC3916340D7C0042E1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7668BC4116340D7C0042E1CB /* UIKit.framework in Frameworks */,
+				7668BC4316340D7C0042E1CB /* Foundation.framework in Frameworks */,
+				7668BC4516340D7C0042E1CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7668BC6216340D7D0042E1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7668BC6816340D7D0042E1CB /* SenTestingKit.framework in Frameworks */,
+				7668BC6916340D7D0042E1CB /* UIKit.framework in Frameworks */,
+				7668BC6A16340D7D0042E1CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7668BC3116340D7C0042E1CB = {
+			isa = PBXGroup;
+			children = (
+				7668BC4616340D7C0042E1CB /* hackday1 */,
+				7668BC6D16340D7D0042E1CB /* hackday1Tests */,
+				7668BC3F16340D7C0042E1CB /* Frameworks */,
+				7668BC3D16340D7C0042E1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7668BC3D16340D7C0042E1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7668BC3C16340D7C0042E1CB /* hackday1.app */,
+				7668BC6616340D7D0042E1CB /* hackday1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7668BC3F16340D7C0042E1CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7668BC4016340D7C0042E1CB /* UIKit.framework */,
+				7668BC4216340D7C0042E1CB /* Foundation.framework */,
+				7668BC4416340D7C0042E1CB /* CoreGraphics.framework */,
+				7668BC6716340D7D0042E1CB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7668BC4616340D7C0042E1CB /* hackday1 */ = {
+			isa = PBXGroup;
+			children = (
+				7668BC4F16340D7C0042E1CB /* wmt_hackday1AppDelegate.h */,
+				7668BC5016340D7C0042E1CB /* wmt_hackday1AppDelegate.m */,
+				7668BC5816340D7C0042E1CB /* MainStoryboard_iPhone.storyboard */,
+				7668BC5B16340D7C0042E1CB /* MainStoryboard_iPad.storyboard */,
+				7668BC5E16340D7C0042E1CB /* wmt_hackday1ViewController.h */,
+				7668BC5F16340D7C0042E1CB /* wmt_hackday1ViewController.m */,
+				7668BC4716340D7C0042E1CB /* Supporting Files */,
+			);
+			path = hackday1;
+			sourceTree = "<group>";
+		};
+		7668BC4716340D7C0042E1CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7668BC4816340D7C0042E1CB /* hackday1-Info.plist */,
+				7668BC4916340D7C0042E1CB /* InfoPlist.strings */,
+				7668BC4C16340D7C0042E1CB /* main.m */,
+				7668BC4E16340D7C0042E1CB /* hackday1-Prefix.pch */,
+				7668BC5216340D7C0042E1CB /* Default.png */,
+				7668BC5416340D7C0042E1CB /* Default@2x.png */,
+				7668BC5616340D7C0042E1CB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7668BC6D16340D7D0042E1CB /* hackday1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7668BC7316340D7D0042E1CB /* hackday1Tests.h */,
+				7668BC7416340D7D0042E1CB /* hackday1Tests.m */,
+				7668BC6E16340D7D0042E1CB /* Supporting Files */,
+			);
+			path = hackday1Tests;
+			sourceTree = "<group>";
+		};
+		7668BC6E16340D7D0042E1CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7668BC6F16340D7D0042E1CB /* hackday1Tests-Info.plist */,
+				7668BC7016340D7D0042E1CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7668BC3B16340D7C0042E1CB /* hackday1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7668BC7816340D7D0042E1CB /* Build configuration list for PBXNativeTarget "hackday1" */;
+			buildPhases = (
+				7668BC3816340D7C0042E1CB /* Sources */,
+				7668BC3916340D7C0042E1CB /* Frameworks */,
+				7668BC3A16340D7C0042E1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackday1;
+			productName = hackday1;
+			productReference = 7668BC3C16340D7C0042E1CB /* hackday1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7668BC6516340D7D0042E1CB /* hackday1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7668BC7B16340D7D0042E1CB /* Build configuration list for PBXNativeTarget "hackday1Tests" */;
+			buildPhases = (
+				7668BC6116340D7D0042E1CB /* Sources */,
+				7668BC6216340D7D0042E1CB /* Frameworks */,
+				7668BC6316340D7D0042E1CB /* Resources */,
+				7668BC6416340D7D0042E1CB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7668BC6C16340D7D0042E1CB /* PBXTargetDependency */,
+			);
+			name = hackday1Tests;
+			productName = hackday1Tests;
+			productReference = 7668BC6616340D7D0042E1CB /* hackday1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7668BC3316340D7C0042E1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = wmt.hackday1;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Walmart;
+			};
+			buildConfigurationList = 7668BC3616340D7C0042E1CB /* Build configuration list for PBXProject "hackday1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7668BC3116340D7C0042E1CB;
+			productRefGroup = 7668BC3D16340D7C0042E1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7668BC3B16340D7C0042E1CB /* hackday1 */,
+				7668BC6516340D7D0042E1CB /* hackday1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7668BC3A16340D7C0042E1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7668BC4B16340D7C0042E1CB /* InfoPlist.strings in Resources */,
+				7668BC5316340D7C0042E1CB /* Default.png in Resources */,
+				7668BC5516340D7C0042E1CB /* Default@2x.png in Resources */,
+				7668BC5716340D7C0042E1CB /* Default-568h@2x.png in Resources */,
+				7668BC5A16340D7C0042E1CB /* MainStoryboard_iPhone.storyboard in Resources */,
+				7668BC5D16340D7C0042E1CB /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7668BC6316340D7D0042E1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7668BC7216340D7D0042E1CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7668BC6416340D7D0042E1CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7668BC3816340D7C0042E1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7668BC4D16340D7C0042E1CB /* main.m in Sources */,
+				7668BC5116340D7C0042E1CB /* wmt_hackday1AppDelegate.m in Sources */,
+				7668BC6016340D7C0042E1CB /* wmt_hackday1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7668BC6116340D7D0042E1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7668BC7516340D7D0042E1CB /* hackday1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7668BC6C16340D7D0042E1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7668BC3B16340D7C0042E1CB /* hackday1 */;
+			targetProxy = 7668BC6B16340D7D0042E1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7668BC4916340D7C0042E1CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7668BC4A16340D7C0042E1CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7668BC5816340D7C0042E1CB /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7668BC5916340D7C0042E1CB /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7668BC5B16340D7C0042E1CB /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7668BC5C16340D7C0042E1CB /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7668BC7016340D7D0042E1CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7668BC7116340D7D0042E1CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7668BC7616340D7D0042E1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7668BC7716340D7D0042E1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7668BC7916340D7D0042E1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hackday1/hackday1-Prefix.pch";
+				INFOPLIST_FILE = "hackday1/hackday1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7668BC7A16340D7D0042E1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hackday1/hackday1-Prefix.pch";
+				INFOPLIST_FILE = "hackday1/hackday1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7668BC7C16340D7D0042E1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hackday1.app/hackday1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hackday1/hackday1-Prefix.pch";
+				INFOPLIST_FILE = "hackday1Tests/hackday1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7668BC7D16340D7D0042E1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hackday1.app/hackday1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hackday1/hackday1-Prefix.pch";
+				INFOPLIST_FILE = "hackday1Tests/hackday1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7668BC3616340D7C0042E1CB /* Build configuration list for PBXProject "hackday1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7668BC7616340D7D0042E1CB /* Debug */,
+				7668BC7716340D7D0042E1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7668BC7816340D7D0042E1CB /* Build configuration list for PBXNativeTarget "hackday1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7668BC7916340D7D0042E1CB /* Debug */,
+				7668BC7A16340D7D0042E1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7668BC7B16340D7D0042E1CB /* Build configuration list for PBXNativeTarget "hackday1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7668BC7C16340D7D0042E1CB /* Debug */,
+				7668BC7D16340D7D0042E1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7668BC3316340D7C0042E1CB /* Project object */;
+}
